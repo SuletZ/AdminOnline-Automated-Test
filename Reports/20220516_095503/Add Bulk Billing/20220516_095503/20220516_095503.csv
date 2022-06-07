@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-16 09:55:13,2022-05-16 09:56:16,1m - 3.701s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 101.0.4951.54,,,2022-05-16 09:55:18,2022-05-16 09:55:19,0.837s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:55:18,2022-05-16 09:55:18,0.014s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 101.0.4951.54,,,2022-05-16 09:55:19,2022-05-16 09:55:19,0.042s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:55:19,2022-05-16 09:55:19,0.440s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 101.0.4951.54,,,2022-05-16 09:55:19,2022-05-16 09:55:32,13.501s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:55:19,2022-05-16 09:55:19,0.001s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 101.0.4951.54,,,2022-05-16 09:55:19,2022-05-16 09:55:20,0.420s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 101.0.4951.54,,,2022-05-16 09:55:20,2022-05-16 09:55:20,0.382s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 101.0.4951.54,,,2022-05-16 09:55:20,2022-05-16 09:55:30,10.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:55:30,2022-05-16 09:55:32,2.178s,PASSED
+,,,,,,,
+Test Cases/Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-16 09:55:32,2022-05-16 09:56:16,43.918s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:55:33,2022-05-16 09:55:33,0.001s,PASSED
+"click(findTestObject(""Page_Main Dashboard/Menu/a_Bulk Billing""))",Chrome 101.0.4951.54,,,2022-05-16 09:55:33,2022-05-16 09:55:34,0.806s,PASSED
+"click(findTestObject(""Bulk Billing/Button_Add Billing Run""))",Chrome 101.0.4951.54,,,2022-05-16 09:55:34,2022-05-16 09:55:45,11.128s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/Drop_Billing Category""))",Chrome 101.0.4951.54,,,2022-05-16 09:55:45,2022-05-16 09:56:16,31.366s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-16 09:56:16,2022-05-16 09:56:16,0.368s,PASSED

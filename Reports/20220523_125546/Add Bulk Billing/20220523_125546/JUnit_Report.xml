@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Bulk Billing" time="65.178" tests="3" failures="0" errors="1">
+   <testsuite name="Add Bulk Billing" tests="3" failures="0" errors="1" time="65.178" skipped="0" timestamp="2022-05-23 12:55:54" hostname="sulet - 192.168.0.103" id="Test Suites/Add Bulk Billing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220523_125546\\Add Bulk Billing\\20220523_125546"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220523_125546\\Add Bulk Billing\\20220523_125546\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220523_125546\\Add Bulk Billing\\20220523_125546\\1653303418942.png"/>
+         <property name="hostName" value="sulet - 192.168.0.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="9c1bed52f8292d4824f58bdb0de4c040"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.362" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-05-23 12:56:01 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-23 12:56:01 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-05-23 12:56:01 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="8.418" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-23 12:56:01 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-23 12:56:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-23 12:56:02 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-23 12:56:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-23 12:56:02 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-23 12:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Login Home Page/Button_Submit")): Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-23 12:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-23 12:56:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Bulk Billing" time="49.383" classname="Test Cases/Add Bulk Billing" status="ERROR">
+         <error type="ERROR" message="Test Cases/Add Bulk Billing FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	... 16 more
+"/>
+         <system-out><![CDATA[2022-05-23 12:56:09 - [TEST_CASE][ERROR] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	... 16 more
+
+
+2022-05-23 12:56:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-23 12:56:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-23 12:56:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-23 12:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Main Dashboard/Menu/a_Bulk Billing")): Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-23 12:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-23 12:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Button_Add Billing Run")): Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-23 12:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-23 12:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Billing Category")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-23 12:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-23 12:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-23 12:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-23 12:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-23 12:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-23 12:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description"), "2022-05-01"): Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-23 12:56:23 - [MESSAGE][PASSED] - Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-23 12:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-23 12:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-23 12:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description"), "2022-05-31"): Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-23 12:56:24 - [MESSAGE][PASSED] - Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-23 12:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Service Name")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-23 12:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-23 12:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/check_Service Name_Index_0")): Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-23 12:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-23 12:56:26 - [TEST_STEP][ERROR] - adminOnline.customKeyWords.clickUsingJS(findTestObject("Bulk Billing/Add Billing Run/Button_Charge")): Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1652350057064.run(Script1652350057064.groovy:40)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	... 13 more
+
+
+2022-05-23 12:56:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:37)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="isc_8J" style="display:inline-block;box-sizing:border-box;max-width:100%;vertical-align:middle;overflow:hidden;text-overflow:ellipsis">...</div> is not clickable at point (521, 576). Other element would receive the click: <div role="presentation" cellclipdiv="true" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;WIDTH:216px;">...</div>
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DQHJD5FF', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sulet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c1bed52f8292d4824f58bdb0de4c040
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:37)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1652350057064.run(Script1652350057064.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220523_125546\\Add Bulk Billing\\20220523_125546\\1653303418942.png]]
+
+2022-05-23 12:56:59 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+
+2022-05-23 12:56:59 - [MESSAGE][ERROR] - Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1652350057064.run(Script1652350057064.groovy:40)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	... 13 more
+
+
+2022-05-23 12:56:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-05-23 12:56:09 - [TEST_CASE][ERROR] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-23 12:55:54 - [TEST_SUITE][ERROR] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2022-05-23 12:55:54 - [TEST_SUITE][ERROR] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.invokeMethod(customKeyWords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653303346486.run(TempTestSuite1653303346486.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject, int), findWebElements(com.kms.katalon.core.testobject.TestObject, int)
+	at adminOnline.customKeyWords.clickUsingJS(customKeyWords.groovy:41)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

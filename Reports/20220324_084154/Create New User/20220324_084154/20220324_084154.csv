@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Firefox 98.0,,,2022-03-24 08:42:01,2022-03-24 08:42:18,17.195s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Firefox 98.0,,,2022-03-24 08:42:06,2022-03-24 08:42:07,0.952s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:42:06,2022-03-24 08:42:06,0.012s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Firefox 98.0,,,2022-03-24 08:42:06,2022-03-24 08:42:06,0.080s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:42:06,2022-03-24 08:42:07,0.468s,PASSED
+,,,,,,,
+Test Cases/Login,Firefox 98.0,,,2022-03-24 08:42:07,2022-03-24 08:42:12,5.338s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:42:07,2022-03-24 08:42:07,0.003s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Firefox 98.0,,,2022-03-24 08:42:07,2022-03-24 08:42:08,1.043s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Firefox 98.0,,,2022-03-24 08:42:08,2022-03-24 08:42:08,0.333s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Firefox 98.0,,,2022-03-24 08:42:08,2022-03-24 08:42:10,2.181s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:42:10,2022-03-24 08:42:12,1.458s,PASSED
+,,,,,,,
+Test Cases/Add Account,Firefox 98.0,,,2022-03-24 08:42:12,2022-03-24 08:42:18,6.397s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:42:12,2022-03-24 08:42:12,0.001s,PASSED
+"click(findTestObject(""Add Account Page/a_New Account""))",Firefox 98.0,,,2022-03-24 08:42:12,2022-03-24 08:42:13,0.656s,PASSED
+"click(findTestObject(""Add Account Page/input_Account Surname_surname""))",Firefox 98.0,,,2022-03-24 08:42:13,2022-03-24 08:42:13,0.636s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Account Surname_surname""), TestUserSurname)",Firefox 98.0,,,2022-03-24 08:42:13,2022-03-24 08:42:14,0.332s,PASSED
+"click(findTestObject(""Add Account Page/td_Add Person""), STOP_ON_FAILURE)",Firefox 98.0,,,2022-03-24 08:42:14,2022-03-24 08:42:15,0.845s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Name_name""), TestUserName)",Firefox 98.0,,,2022-03-24 08:42:15,2022-03-24 08:42:15,0.333s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Surname_surname""), TestUserSurname)",Firefox 98.0,,,2022-03-24 08:42:15,2022-03-24 08:42:16,0.560s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_ID Number_id_number""), ""7612140114088"")",Firefox 98.0,,,2022-03-24 08:42:16,2022-03-24 08:42:16,0.574s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Email_email""), ""1Test@iits.co.za"")",Firefox 98.0,,,2022-03-24 08:42:16,2022-03-24 08:42:17,0.636s,PASSED
+"click(findTestObject(""Add Account Page/div_""))",Firefox 98.0,,,2022-03-24 08:42:17,2022-03-24 08:42:17,0.655s,PASSED
+"click(findTestObject(""Add Account Page/div_Send By Email""))",Firefox 98.0,,,2022-03-24 08:42:17,2022-03-24 08:42:18,0.630s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:42:18,2022-03-24 08:42:18,0.299s,PASSED

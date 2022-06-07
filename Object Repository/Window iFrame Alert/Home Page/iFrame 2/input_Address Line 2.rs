@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Address Line 2</name>
+   <tag></tag>
+   <elementGuidId>1b2f47fa-8b00-46ec-860d-27bd5a527e79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='addressLine2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>af36b2c0-5ca7-4bf6-90b7-de90e42bc4aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id('addressLine2')</value>
+      <webElementGuid>ffdd2808-2e23-4e34-832f-92ea36161094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>54c9ee9b-6d06-4332-b950-5939b21e3c07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Window iFrame Alert/Home Page/iFrame 2/iframe_LOGIN_addressInfoFrame</value>
+      <webElementGuid>ce13a935-2711-4be3-8d8e-62b91eb6f64c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

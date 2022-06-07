@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Add Person</name>
+   <tag></tag>
+   <elementGuidId>217e1402-f110-4d6b-b43c-abb486ca7188</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@eventproxy='btnManageCustomerAccountAddPerson']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'buttonRoundedOver' and (text() = 'Add Person' or . = 'Add Person')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.buttonRoundedOver</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>8caf4809-f3be-4c6b-9d73-fd8bbed9a59d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonRoundedOver</value>
+      <webElementGuid>31460161-d55d-4d96-ae66-d0b5ffe30e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Person</value>
+      <webElementGuid>c16a6e9b-3905-4776-aa26-9404b37422ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_8&quot;)/table[1]/tbody[1]/tr[1]/td[@class=&quot;buttonRoundedOver&quot;]</value>
+      <webElementGuid>ab942277-c9f1-4f40-8f9f-254e08798c40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='isc_8']/table/tbody/tr/td</value>
+      <webElementGuid>5a1214fc-b59b-4a2d-930b-f7dbb5b44239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::td[1]</value>
+      <webElementGuid>4a34fef6-33ee-4e9f-b7e1-9e7ec15c725e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/following::td[2]</value>
+      <webElementGuid>7f6f3fa3-cef4-434e-985f-3035ddb2420c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Responsible Person'])[1]/preceding::td[1]</value>
+      <webElementGuid>9c11adc4-452b-47b2-8626-8d7b332daa9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/table/tbody/tr/td</value>
+      <webElementGuid>47260552-63be-42a1-b26e-7129482029cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Add Person' or . = 'Add Person')]</value>
+      <webElementGuid>b2996cb7-dfb3-4666-ae3e-83815d73812f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

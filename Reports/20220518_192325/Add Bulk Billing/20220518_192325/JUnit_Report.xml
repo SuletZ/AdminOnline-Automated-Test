@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Bulk Billing" time="66.016" tests="3" failures="1" errors="0">
+   <testsuite name="Add Bulk Billing" tests="3" failures="1" errors="0" time="66.016" skipped="0" timestamp="2022-05-18 19:23:37" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Add Bulk Billing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220518_192325\\Add Bulk Billing\\20220518_192325"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220518_192325\\Add Bulk Billing\\20220518_192325\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220518_192325\\Add Bulk Billing\\20220518_192325\\1652894683151.png"/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.3.94"/>
+         <property name="sessionId" value="445d99567b5af2c942d71b251c6dc87d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.409" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-05-18 19:23:46 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-18 19:23:46 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-05-18 19:23:46 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="11.038" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-18 19:23:46 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-18 19:23:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-18 19:23:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-18 19:23:47 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-18 19:23:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-18 19:23:48 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-18 19:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Home Page/Button_Submit")): Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-18 19:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-18 19:23:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Bulk Billing" time="45.431" classname="Test Cases/Add Bulk Billing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-18 19:23:57 - [TEST_CASE][FAILED] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-18 19:23:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-18 19:23:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-18 19:23:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-18 19:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Main Dashboard/Menu/a_Bulk Billing")): Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-18 19:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-18 19:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Button_Add Billing Run")): Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-18 19:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-18 19:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Billing Category")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-18 19:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-18 19:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-18 19:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-18 19:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-18 19:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-18 19:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description"), "2022-05-01"): Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-18 19:24:06 - [MESSAGE][PASSED] - Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-18 19:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-18 19:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-18 19:24:07 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description"), "2022-05-31"): Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-18 19:24:07 - [MESSAGE][PASSED] - Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-18 19:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Service Name")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-18 19:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-18 19:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/check_Service Name_Index_0")): Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-18 19:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-18 19:24:12 - [TEST_STEP][FAILED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_expanded_Service Name")): Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652350057064.run(Script1652350057064.groovy:40)
+	... 13 more
+)
+
+2022-05-18 19:24:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-18 19:24:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652350057064.run(Script1652350057064.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220518_192325\\Add Bulk Billing\\20220518_192325\\1652894683151.png]]
+
+2022-05-18 19:24:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-05-18 19:23:57 - [TEST_CASE][FAILED] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 19:23:37 - [TEST_SUITE][FAILED] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-18 19:23:37 - [TEST_SUITE][FAILED] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652894605285.run(TempTestSuite1652894605285.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/drop_expanded_Service Name' located by '//div[@id='isc_DH']/parent::body/div[@id='isc_8K']//div[@id='isc_7Y']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

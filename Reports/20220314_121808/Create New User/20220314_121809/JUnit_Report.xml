@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New User" time="20.864" tests="2" failures="0" errors="0">
+   <testsuite name="Create New User" tests="2" failures="0" errors="0" time="20.864" skipped="0" timestamp="2022-03-14 12:18:24" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Create New User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809\\screenshots/Test Cases-Open Browserdt.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809\\screenshots/Test Cases-Logindt.png"/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.3.94"/>
+         <property name="sessionId" value="95ce7d3784e3de1695f120282a5b65f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.794" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-03-14 12:18:33 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-03-14 12:18:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 12:18:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 12:18:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-03-14 12:18:34 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-03-14 12:18:34 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + "dt" + ".png": null
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-14 12:18:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809\\screenshots/Test Cases-Open Browserdt.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="11.106" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-03-14 12:18:34 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-14 12:18:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-14 12:18:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-14 12:18:35 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-14 12:18:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-14 12:18:35 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-14 12:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Home Page/Login Submit")): Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-14 12:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-14 12:18:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-14 12:18:45 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-14 12:18:45 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + "dt" + ".png": null
+
+2022-03-14 12:18:45 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-14 12:18:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220314_121808\\Create New User\\20220314_121809\\screenshots/Test Cases-Logindt.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-14 12:18:24 - [TEST_SUITE][PASSED] - Create New User: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

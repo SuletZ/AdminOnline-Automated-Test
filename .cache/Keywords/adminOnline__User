@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "288368494C5F8F93FB2002D0BA049A75",
+  "keywordClasses": [
+    {
+      "name": "adminOnline.User",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Login\r\n\t * @param username to login to AdminOnline\r\n\t * @param password to login to AdminOnline\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

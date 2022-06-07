@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New User" time="17.195" tests="3" failures="1" errors="0">
+   <testsuite name="Create New User" tests="3" failures="1" errors="0" time="17.195" skipped="0" timestamp="2022-03-24 08:42:01" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Create New User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Open Browser83842.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Login83842.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Add Account83842.png"/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Firefox 98.0"/>
+         <property name="hostAddress" value="192.168.11.156"/>
+         <property name="sessionId" value="496335a0-6dd2-40a1-af81-870ed5b498c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.952" classname="Test Cases/Open Browser" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Open Browser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-24 08:42:06 - [TEST_CASE][FAILED] - Test Cases/Open Browser: Test Cases/Open Browser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)
+
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:42:06 - [TEST_STEP][FAILED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Unable to verify match between actual text '' and expected text 'Test System AdminOnline' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)
+)
+
+2022-03-24 08:42:06 - [MESSAGE][PASSED] - Current window's title is: ''
+
+2022-03-24 08:42:06 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Test System AdminOnline' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)
+)
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:42:06 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:42:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Open Browser83842.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-24 08:42:06 - [TEST_CASE][FAILED] - Test Cases/Open Browser: Test Cases/Open Browser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="5.338" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-03-24 08:42:07 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-03-24 08:42:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:42:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:42:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:42:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-24 08:42:08 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-24 08:42:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-24 08:42:08 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-24 08:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Home Page/Login Submit")): Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-24 08:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:42:10 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:42:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Login83842.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Account" time="6.397" classname="Test Cases/Add Account" status="PASSED">
+         <system-out><![CDATA[2022-03-24 08:42:12 - [TEST_CASE][PASSED] - Test Cases/Add Account: Test Cases/Add Account
+
+2022-03-24 08:42:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:42:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:42:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/a_New Account")): Object: 'Object Repository/Add Account Page/a_New Account' is clicked on
+
+2022-03-24 08:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/a_New Account' is clicked on
+
+2022-03-24 08:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/input_Account Surname_surname")): Object: 'Object Repository/Add Account Page/input_Account Surname_surname' is clicked on
+
+2022-03-24 08:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/input_Account Surname_surname' is clicked on
+
+2022-03-24 08:42:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Account Surname_surname"), TestUserSurname): Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Account Surname_surname'
+
+2022-03-24 08:42:14 - [MESSAGE][PASSED] - Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Account Surname_surname'
+
+2022-03-24 08:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/td_Add Person"), STOP_ON_FAILURE): Object: 'Object Repository/Add Account Page/td_Add Person' is clicked on
+
+2022-03-24 08:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/td_Add Person' is clicked on
+
+2022-03-24 08:42:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Name_name"), TestUserName): Keys '1TestName' sent to object: 'Object Repository/Add Account Page/input_Name_name'
+
+2022-03-24 08:42:15 - [MESSAGE][PASSED] - Keys '1TestName' sent to object: 'Object Repository/Add Account Page/input_Name_name'
+
+2022-03-24 08:42:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Surname_surname"), TestUserSurname): Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Surname_surname'
+
+2022-03-24 08:42:16 - [MESSAGE][PASSED] - Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Surname_surname'
+
+2022-03-24 08:42:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_ID Number_id_number"), "7612140114088"): Keys '7612140114088' sent to object: 'Object Repository/Add Account Page/input_ID Number_id_number'
+
+2022-03-24 08:42:16 - [MESSAGE][PASSED] - Keys '7612140114088' sent to object: 'Object Repository/Add Account Page/input_ID Number_id_number'
+
+2022-03-24 08:42:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Email_email"), "1Test@iits.co.za"): Keys '1Test@iits.co.za' sent to object: 'Object Repository/Add Account Page/input_Email_email'
+
+2022-03-24 08:42:17 - [MESSAGE][PASSED] - Keys '1Test@iits.co.za' sent to object: 'Object Repository/Add Account Page/input_Email_email'
+
+2022-03-24 08:42:17 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/div_")): Object: 'Object Repository/Add Account Page/div_' is clicked on
+
+2022-03-24 08:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/div_' is clicked on
+
+2022-03-24 08:42:17 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/div_Send By Email")): Object: 'Object Repository/Add Account Page/div_Send By Email' is clicked on
+
+2022-03-24 08:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/div_Send By Email' is clicked on
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:42:18 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:42:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_084154\\Create New User\\20220324_084154\\screenshots/Test Cases-Add Account83842.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 08:42:01 - [TEST_SUITE][FAILED] - Create New User: Test Cases/Open Browser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-24 08:42:01 - [TEST_SUITE][FAILED] - Create New User: Test Cases/Open Browser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Test System AdminOnline' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Open Browser.run(Open Browser:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648104114658.run(TempTestSuite1648104114658.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

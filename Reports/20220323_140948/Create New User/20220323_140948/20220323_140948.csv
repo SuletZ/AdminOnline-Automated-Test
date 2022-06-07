@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 99.0.4844.82,,,2022-03-23 14:09:55,2022-03-23 14:10:13,17.637s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 99.0.4844.82,,,2022-03-23 14:10:01,2022-03-23 14:10:02,0.777s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:01,2022-03-23 14:10:01,0.014s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 99.0.4844.82,,,2022-03-23 14:10:02,2022-03-23 14:10:02,0.039s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:02,2022-03-23 14:10:02,0.440s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 99.0.4844.82,,,2022-03-23 14:10:02,2022-03-23 14:10:10,7.925s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:02,2022-03-23 14:10:02,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Chrome 99.0.4844.82,,,2022-03-23 14:10:02,2022-03-23 14:10:03,0.437s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Chrome 99.0.4844.82,,,2022-03-23 14:10:03,2022-03-23 14:10:03,0.381s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Chrome 99.0.4844.82,,,2022-03-23 14:10:03,2022-03-23 14:10:10,6.239s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:10,2022-03-23 14:10:10,0.561s,PASSED
+,,,,,,,
+Test Cases/Add Account,Chrome 99.0.4844.82,,,2022-03-23 14:10:10,2022-03-23 14:10:13,2.507s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:10,2022-03-23 14:10:10,0.000s,PASSED
+"click(findTestObject(""Add Account Page/Page_Test System AdminOnline/a_New Account""))",Chrome 99.0.4844.82,,,2022-03-23 14:10:10,2022-03-23 14:10:11,0.650s,PASSED
+"click(findTestObject(""Add Account Page/Page_Test System AdminOnline/td_Add Person""))",Chrome 99.0.4844.82,,,2022-03-23 14:10:11,2022-03-23 14:10:12,0.613s,PASSED
+"click(findTestObject(""Add Account Page/Page_Test System AdminOnline/input_Account Surname_surname""))",Chrome 99.0.4844.82,,,2022-03-23 14:10:12,2022-03-23 14:10:12,0.590s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 14:10:12,2022-03-23 14:10:13,0.377s,PASSED

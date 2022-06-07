@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 99.0.4844.82,,,2022-03-23 13:04:25,2022-03-23 13:05:14,49.136s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 99.0.4844.82,,,2022-03-23 13:04:32,2022-03-23 13:04:33,0.806s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:04:32,2022-03-23 13:04:32,0.013s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 99.0.4844.82,,,2022-03-23 13:04:32,2022-03-23 13:04:32,0.040s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:04:32,2022-03-23 13:04:32,0.449s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 99.0.4844.82,,,2022-03-23 13:04:33,2022-03-23 13:04:42,9.298s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:04:33,2022-03-23 13:04:33,0.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Chrome 99.0.4844.82,,,2022-03-23 13:04:33,2022-03-23 13:04:33,0.420s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Chrome 99.0.4844.82,,,2022-03-23 13:04:33,2022-03-23 13:04:34,0.369s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Chrome 99.0.4844.82,,,2022-03-23 13:04:34,2022-03-23 13:04:41,7.580s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:04:41,2022-03-23 13:04:42,0.670s,PASSED
+,,,,,,,
+Test Cases/Add Account,Chrome 99.0.4844.82,,,2022-03-23 13:04:42,2022-03-23 13:05:14,32.687s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:04:42,2022-03-23 13:04:42,0.000s,PASSED
+"click(findTestObject(""Add Account Page/Page_Test System AdminOnline/a_New Account""))",Chrome 99.0.4844.82,,,2022-03-23 13:04:42,2022-03-23 13:04:43,0.627s,PASSED
+"setText(findTestObject(""Add Account Page/Page_Test System AdminOnline/Page_Test System AdminOnline/input_Account Surname_surname""), TestUserSurname)",Chrome 99.0.4844.82,,,2022-03-23 13:04:43,2022-03-23 13:05:14,31.422s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-23 13:05:14,2022-03-23 13:05:14,0.380s,PASSED

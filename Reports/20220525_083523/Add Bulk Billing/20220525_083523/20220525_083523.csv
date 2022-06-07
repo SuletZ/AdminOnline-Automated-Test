@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Bulk Billing,Chrome 101.0.4951.67,,,2022-05-25 08:35:29,2022-05-25 08:35:43,13.824s,ERROR
+,,,,,,,
+Test Cases/Open Browser,Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:35,0.343s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:35,0.013s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:35,0.043s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:35,0.000s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:43,7.746s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:35,0.000s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 101.0.4951.67,,,2022-05-25 08:35:35,2022-05-25 08:35:36,0.422s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 101.0.4951.67,,,2022-05-25 08:35:36,2022-05-25 08:35:36,0.387s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 101.0.4951.67,,,2022-05-25 08:35:36,2022-05-25 08:35:43,6.670s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:43,2022-05-25 08:35:43,0.001s,PASSED
+,,,,,,,
+Test Cases/Add Bulk Billing,Chrome 101.0.4951.67,,,2022-05-25 08:35:43,2022-05-25 08:35:43,0.366s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:43,2022-05-25 08:35:43,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-25 08:35:43,2022-05-25 08:35:43,0.000s,PASSED

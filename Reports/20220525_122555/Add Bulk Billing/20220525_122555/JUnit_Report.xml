@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Bulk Billing" time="50.409" tests="3" failures="0" errors="1">
+   <testsuite name="Add Bulk Billing" tests="3" failures="0" errors="1" time="50.409" skipped="0" timestamp="2022-05-25 12:26:02" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Add Bulk Billing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220525_122555\\Add Bulk Billing\\20220525_122555"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220525_122555\\Add Bulk Billing\\20220525_122555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.3.94"/>
+         <property name="sessionId" value="62015082cb2a9de6442be439cebfd929"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.372" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-05-25 12:26:07 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-05-25 12:26:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-25 12:26:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-25 12:26:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-25 12:26:08 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-05-25 12:26:08 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="10.285" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-25 12:26:08 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-25 12:26:08 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-25 12:26:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-25 12:26:09 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-25 12:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Login Home Page/Button_Submit")): Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-25 12:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-25 12:26:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Bulk Billing" time="34.066" classname="Test Cases/Add Bulk Billing" status="ERROR">
+         <error type="ERROR" message="Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)
+"/>
+         <system-out><![CDATA[2022-05-25 12:26:18 - [TEST_CASE][ERROR] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)
+
+
+2022-05-25 12:26:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-25 12:26:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-25 12:26:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-25 12:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Main Dashboard/Menu/a_Bulk Billing")): Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-25 12:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-25 12:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Button_Add Billing Run")): Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-25 12:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-25 12:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Billing Category")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-25 12:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-25 12:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-25 12:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-25 12:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-25 12:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-25 12:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description"), "2022-05-01"): Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-25 12:26:46 - [MESSAGE][PASSED] - Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-25 12:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-25 12:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-25 12:26:46 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description"), "2022-05-31"): Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-25 12:26:47 - [MESSAGE][PASSED] - Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-25 12:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Service Name")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-25 12:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-25 12:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/check_Service Name_Index_0")): Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-25 12:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-25 12:26:48 - [TEST_STEP][ERROR] - element = findWebElement(findTestObject("Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name"), 3): Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)
+
+
+2022-05-25 12:26:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='isc_PickListMenu_2_row_0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-25 12:26:52 - [MESSAGE][ERROR] - Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)
+
+
+2022-05-25 12:26:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-05-25 12:26:18 - [TEST_CASE][ERROR] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-25 12:26:02 - [TEST_SUITE][ERROR] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-05-25 12:26:02 - [TEST_SUITE][ERROR] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bulk Billing/Add Billing Run/iFrame_Service Name' located by '//tr[@id='isc_PickListMenu_2_row_0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653474355112.run(TempTestSuite1653474355112.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 100.0.4896.127,,,2022-04-20 13:12:05,2022-04-20 13:12:51,46.050s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:11,0.784s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:11,0.016s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:11,0.037s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:11,0.439s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:19,7.882s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:11,2022-04-20 13:12:11,0.002s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 100.0.4896.127,,,2022-04-20 13:12:12,2022-04-20 13:12:12,0.427s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 100.0.4896.127,,,2022-04-20 13:12:12,2022-04-20 13:12:12,0.371s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 100.0.4896.127,,,2022-04-20 13:12:12,2022-04-20 13:12:19,6.237s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:19,2022-04-20 13:12:19,0.581s,PASSED
+,,,,,,,
+Test Cases/Add Account,Chrome 100.0.4896.127,,,2022-04-20 13:12:19,2022-04-20 13:12:51,31.909s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:19,2022-04-20 13:12:19,0.000s,PASSED
+"click(findTestObject(""Page_Main Dashboard/Menu/a_New Account""))",Chrome 100.0.4896.127,,,2022-04-20 13:12:20,2022-04-20 13:12:51,31.242s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 13:12:51,2022-04-20 13:12:51,0.398s,PASSED

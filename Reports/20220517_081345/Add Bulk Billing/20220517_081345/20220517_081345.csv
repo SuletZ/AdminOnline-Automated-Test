@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-17 08:13:53,2022-05-17 08:14:50,57.365s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:13:59,0.371s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:13:59,0.020s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:13:59,0.039s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:13:59,0.000s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:14:08,8.695s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:13:59,0.000s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 101.0.4951.54,,,2022-05-17 08:13:59,2022-05-17 08:14:00,0.435s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 101.0.4951.54,,,2022-05-17 08:14:00,2022-05-17 08:14:00,0.371s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:00,2022-05-17 08:14:08,7.622s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:14:08,2022-05-17 08:14:08,0.000s,PASSED
+,,,,,,,
+Test Cases/Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-17 08:14:08,2022-05-17 08:14:50,42.501s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:14:08,2022-05-17 08:14:08,0.001s,PASSED
+"click(findTestObject(""Page_Main Dashboard/Menu/a_Bulk Billing""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:08,2022-05-17 08:14:09,0.816s,PASSED
+"click(findTestObject(""Bulk Billing/Button_Add Billing Run""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:09,2022-05-17 08:14:14,5.161s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_arrow_Billing Category""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:14,2022-05-17 08:14:15,0.497s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:15,2022-05-17 08:14:15,0.569s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/input_From Date Description""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:15,2022-05-17 08:14:16,0.463s,PASSED
+"setText(findTestObject(""Bulk Billing/Add Billing Run/input_From Date Description""), ""2022-05-01"")",Chrome 101.0.4951.54,,,2022-05-17 08:14:16,2022-05-17 08:14:16,0.780s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/input_To Date Description""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:16,2022-05-17 08:14:17,0.359s,PASSED
+"setText(findTestObject(""Bulk Billing/Add Billing Run/input_To Date Description""), ""2022-05-31"")",Chrome 101.0.4951.54,,,2022-05-17 08:14:17,2022-05-17 08:14:17,0.638s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_arrow_Service Name""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:17,2022-05-17 08:14:18,0.375s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/check_Service Name_Index_0""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:18,2022-05-17 08:14:19,1.233s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_Service Name""))",Chrome 101.0.4951.54,,,2022-05-17 08:14:19,2022-05-17 08:14:50,31.311s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-17 08:14:50,2022-05-17 08:14:50,0.001s,PASSED

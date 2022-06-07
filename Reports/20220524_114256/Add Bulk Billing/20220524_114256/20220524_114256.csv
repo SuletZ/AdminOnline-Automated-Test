@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Bulk Billing,Chrome 101.0.4951.67,,,2022-05-24 11:43:06,2022-05-24 11:43:53,46.931s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 101.0.4951.67,,,2022-05-24 11:43:12,2022-05-24 11:43:13,0.381s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:12,2022-05-24 11:43:12,0.022s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 101.0.4951.67,,,2022-05-24 11:43:12,2022-05-24 11:43:13,0.040s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:13,2022-05-24 11:43:13,0.001s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 101.0.4951.67,,,2022-05-24 11:43:13,2022-05-24 11:43:20,7.051s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:13,2022-05-24 11:43:13,0.005s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 101.0.4951.67,,,2022-05-24 11:43:13,2022-05-24 11:43:13,0.434s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 101.0.4951.67,,,2022-05-24 11:43:13,2022-05-24 11:43:14,0.367s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:14,2022-05-24 11:43:20,5.997s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:20,2022-05-24 11:43:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Add Bulk Billing,Chrome 101.0.4951.67,,,2022-05-24 11:43:20,2022-05-24 11:43:53,33.296s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:20,2022-05-24 11:43:20,0.001s,PASSED
+"click(findTestObject(""Page_Main Dashboard/Menu/a_Bulk Billing""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:20,2022-05-24 11:43:21,0.836s,PASSED
+"click(findTestObject(""Bulk Billing/Button_Add Billing Run""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:21,2022-05-24 11:43:27,6.191s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_arrow_Billing Category""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:27,2022-05-24 11:43:31,4.179s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:31,2022-05-24 11:43:32,0.598s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/input_From Date Description""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:32,2022-05-24 11:43:32,0.477s,PASSED
+"setText(findTestObject(""Bulk Billing/Add Billing Run/input_From Date Description""), ""2022-05-01"")",Chrome 101.0.4951.67,,,2022-05-24 11:43:32,2022-05-24 11:43:33,0.766s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/input_To Date Description""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:33,2022-05-24 11:43:33,0.352s,PASSED
+"setText(findTestObject(""Bulk Billing/Add Billing Run/input_To Date Description""), ""2022-05-31"")",Chrome 101.0.4951.67,,,2022-05-24 11:43:33,2022-05-24 11:43:34,0.648s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/drop_arrow_Service Name""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:34,2022-05-24 11:43:34,0.404s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/check_Service Name_Index_0""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:34,2022-05-24 11:43:35,0.680s,PASSED
+"js = ""document.querySelector(""#isc_84"").click();""",Chrome 101.0.4951.67,,,2022-05-24 11:43:35,2022-05-24 11:43:35,0.000s,PASSED
+"executeJavaScript(js, null)",Chrome 101.0.4951.67,,,2022-05-24 11:43:35,2022-05-24 11:43:35,0.049s,PASSED
+"waitForElementPresent(findTestObject(""Bulk Billing/Add Billing Run/Button_Charge""), 2)",Chrome 101.0.4951.67,,,2022-05-24 11:43:35,2022-05-24 11:43:35,0.452s,PASSED
+"verifyElementClickable(findTestObject(""Bulk Billing/Add Billing Run/Button_Charge""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:35,2022-05-24 11:43:36,0.332s,PASSED
+"click(findTestObject(""Bulk Billing/Add Billing Run/Button_Charge""))",Chrome 101.0.4951.67,,,2022-05-24 11:43:36,2022-05-24 11:43:53,17.043s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.67,,,2022-05-24 11:43:53,2022-05-24 11:43:53,0.000s,PASSED

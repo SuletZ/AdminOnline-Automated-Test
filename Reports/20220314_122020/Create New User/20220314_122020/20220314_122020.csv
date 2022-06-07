@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 99.0.4844.51,,,2022-03-14 12:20:32,2022-03-14 12:20:59,26.183s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 99.0.4844.51,,,2022-03-14 12:20:45,2022-03-14 12:20:46,0.380s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.51,,,2022-03-14 12:20:45,2022-03-14 12:20:45,0.012s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:46,0.037s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:46,0.051s,ERROR
+,,,,,,,
+Test Cases/Login,Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:59,12.865s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:46,0.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:46,0.422s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Chrome 99.0.4844.51,,,2022-03-14 12:20:46,2022-03-14 12:20:47,0.354s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Chrome 99.0.4844.51,,,2022-03-14 12:20:47,2022-03-14 12:20:59,11.820s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.51,,,2022-03-14 12:20:59,2022-03-14 12:20:59,0.010s,ERROR

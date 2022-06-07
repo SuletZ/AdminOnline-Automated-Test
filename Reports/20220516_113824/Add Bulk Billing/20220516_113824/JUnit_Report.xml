@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Bulk Billing" time="46.601" tests="3" failures="1" errors="0">
+   <testsuite name="Add Bulk Billing" tests="3" failures="1" errors="0" time="46.601" skipped="0" timestamp="2022-05-16 11:38:35" hostname="sulet - 192.168.43.247" id="Test Suites/Add Bulk Billing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Open Browser1361138.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Login1361138.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\1652693961979.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Add Bulk Billing1361139.png"/>
+         <property name="hostName" value="sulet - 192.168.43.247"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.43.247"/>
+         <property name="sessionId" value="f1c24cad2efc09d2485cd85b345670a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.829" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-05-16 11:38:41 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-16 11:38:41 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-05-16 11:38:41 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - println(path): null
+
+2022-05-16 11:38:41 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-05-16 11:38:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Open Browser1361138.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="7.8" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-16 11:38:42 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-05-16 11:38:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-16 11:38:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-16 11:38:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-16 11:38:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-16 11:38:42 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-16 11:38:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-16 11:38:43 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-16 11:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Login Home Page/Button_Submit")): Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-16 11:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - println(path): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-05-16 11:38:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Login1361138.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Bulk Billing" time="32.704" classname="Test Cases/Add Bulk Billing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-16 11:38:49 - [TEST_CASE][FAILED] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-16 11:38:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-16 11:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Main Dashboard/Menu/a_Bulk Billing")): Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-16 11:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-16 11:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Button_Add Billing Run")): Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-16 11:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-16 11:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Billing Category")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-16 11:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-16 11:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-16 11:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-16 11:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Service Name")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-16 11:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-16 11:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Service Name_option_index_0")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Service Name_option_index_0' is clicked on
+
+2022-05-16 11:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Service Name_option_index_0' is clicked on
+
+2022-05-16 11:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/Button_Charge")): Object: 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge' is clicked on
+
+2022-05-16 11:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge' is clicked on
+
+2022-05-16 11:39:21 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_AdminOnline AdminOnline/div_Yes")): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1652350057064.run(Script1652350057064.groovy:34)
+	... 13 more
+)
+
+2022-05-16 11:39:21 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_AdminOnline AdminOnline/div_Yes' does not exist
+
+2022-05-16 11:39:21 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-16 11:39:22 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1652350057064.run(Script1652350057064.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\1652693961979.png]]
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - println(path): null
+
+2022-05-16 11:39:22 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-05-16 11:39:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220516_113824\\Add Bulk Billing\\20220516_113824\\screenshots/Test Cases-Add Bulk Billing1361139.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-16 11:38:49 - [TEST_CASE][FAILED] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-16 11:38:35 - [TEST_SUITE][FAILED] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-16 11:38:35 - [TEST_SUITE][FAILED] - Add Bulk Billing: Test Cases/Add Bulk Billing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add Bulk Billing.run(Add Bulk Billing:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652693904489.run(TempTestSuite1652693904489.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

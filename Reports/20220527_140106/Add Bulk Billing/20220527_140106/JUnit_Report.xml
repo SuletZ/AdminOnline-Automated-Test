@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Bulk Billing" time="52.66" tests="3" failures="0" errors="0">
+   <testsuite name="Add Bulk Billing" tests="3" failures="0" errors="0" time="52.66" skipped="0" timestamp="2022-05-27 14:01:18" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Add Bulk Billing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220527_140106\\Add Bulk Billing\\20220527_140106"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220527_140106\\Add Bulk Billing\\20220527_140106\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.62"/>
+         <property name="hostAddress" value="192.168.3.94"/>
+         <property name="sessionId" value="d746ae1f2c2460b30febcf60b5508dd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="4.918" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-05-27 14:01:22 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-05-27 14:01:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-27 14:01:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-27 14:01:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-27 14:01:23 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-27 14:01:27 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-05-27 14:01:27 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-05-27 14:01:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="13.909" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-27 14:01:27 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-05-27 14:01:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-27 14:01:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-27 14:01:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-27 14:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-27 14:01:28 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Input_Username'
+
+2022-05-27 14:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Home Page/Input_Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-27 14:01:29 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Input_Password'
+
+2022-05-27 14:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Login Home Page/Button_Submit")): Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-27 14:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Button_Submit' is clicked on
+
+2022-05-27 14:01:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Bulk Billing" time="29.276" classname="Test Cases/Add Bulk Billing" status="PASSED">
+         <system-out><![CDATA[2022-05-27 14:01:41 - [TEST_CASE][PASSED] - Test Cases/Add Bulk Billing: Test Cases/Add Bulk Billing
+
+2022-05-27 14:01:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-05-27 14:01:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-05-27 14:01:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-05-27 14:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Main Dashboard/Menu/a_Bulk Billing")): Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-27 14:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Main Dashboard/Menu/a_Bulk Billing' is clicked on
+
+2022-05-27 14:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Button_Add Billing Run")): Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-27 14:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Button_Add Billing Run' is clicked on
+
+2022-05-27 14:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Billing Category")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-27 14:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Billing Category' is clicked on
+
+2022-05-27 14:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-27 14:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_Billing Category_Option_Index_1' is clicked on
+
+2022-05-27 14:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-27 14:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description' is clicked on
+
+2022-05-27 14:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_From Date Description"), "2022-05-01"): Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-27 14:01:51 - [MESSAGE][PASSED] - Text '2022-05-01' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_From Date Description'
+
+2022-05-27 14:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description")): Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-27 14:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description' is clicked on
+
+2022-05-27 14:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Bulk Billing/Add Billing Run/input_To Date Description"), "2022-05-31"): Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-27 14:01:57 - [MESSAGE][PASSED] - Text '2022-05-31' is set on object 'Object Repository/Bulk Billing/Add Billing Run/input_To Date Description'
+
+2022-05-27 14:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/drop_arrow_Service Name")): Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-27 14:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/drop_arrow_Service Name' is clicked on
+
+2022-05-27 14:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/check_Service Name_Index_0")): Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-27 14:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/check_Service Name_Index_0' is clicked on
+
+2022-05-27 14:01:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2022-05-27 14:01:59 - [MESSAGE][WARNING] - Test object id is null
+
+2022-05-27 14:01:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-27 14:01:59 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2022-05-27 14:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Bulk Billing/Add Billing Run/Button_Charge")): Object: 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge' is clicked on
+
+2022-05-27 14:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Bulk Billing/Add Billing Run/Button_Charge' is clicked on
+
+2022-05-27 14:02:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-27 14:01:18 - [TEST_SUITE][PASSED] - Add Bulk Billing: Test Cases/Add Bulk Billing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

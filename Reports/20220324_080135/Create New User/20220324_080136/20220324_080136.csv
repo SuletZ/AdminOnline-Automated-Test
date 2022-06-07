@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 99.0.4844.82,,,2022-03-24 08:01:43,2022-03-24 08:01:59,15.422s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 99.0.4844.82,,,2022-03-24 08:01:47,2022-03-24 08:01:48,0.815s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:47,2022-03-24 08:01:47,0.020s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 99.0.4844.82,,,2022-03-24 08:01:48,2022-03-24 08:01:48,0.037s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:48,2022-03-24 08:01:48,0.460s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 99.0.4844.82,,,2022-03-24 08:01:48,2022-03-24 08:01:53,4.438s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:48,2022-03-24 08:01:48,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Chrome 99.0.4844.82,,,2022-03-24 08:01:48,2022-03-24 08:01:49,0.407s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Chrome 99.0.4844.82,,,2022-03-24 08:01:49,2022-03-24 08:01:49,0.363s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Chrome 99.0.4844.82,,,2022-03-24 08:01:49,2022-03-24 08:01:51,2.065s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:51,2022-03-24 08:01:53,1.341s,PASSED
+,,,,,,,
+Test Cases/Add Account,Chrome 99.0.4844.82,,,2022-03-24 08:01:53,2022-03-24 08:01:59,6.305s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:53,2022-03-24 08:01:53,0.001s,PASSED
+"click(findTestObject(""Add Account Page/a_New Account""))",Chrome 99.0.4844.82,,,2022-03-24 08:01:53,2022-03-24 08:01:53,0.665s,PASSED
+"click(findTestObject(""Add Account Page/input_Account Surname_surname""))",Chrome 99.0.4844.82,,,2022-03-24 08:01:53,2022-03-24 08:01:54,0.502s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Account Surname_surname""), TestUserSurname)",Chrome 99.0.4844.82,,,2022-03-24 08:01:54,2022-03-24 08:01:54,0.473s,PASSED
+"click(findTestObject(""Add Account Page/td_Add Person""), STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-24 08:01:54,2022-03-24 08:01:55,0.507s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Name_name""), TestUserName)",Chrome 99.0.4844.82,,,2022-03-24 08:01:55,2022-03-24 08:01:56,0.590s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Surname_surname""), TestUserSurname)",Chrome 99.0.4844.82,,,2022-03-24 08:01:56,2022-03-24 08:01:56,0.603s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_ID Number_id_number""), ""7612140114088"")",Chrome 99.0.4844.82,,,2022-03-24 08:01:56,2022-03-24 08:01:57,0.531s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Email_email""), ""1Test@iits.co.za"")",Chrome 99.0.4844.82,,,2022-03-24 08:01:57,2022-03-24 08:01:57,0.543s,PASSED
+"click(findTestObject(""Add Account Page/div_""))",Chrome 99.0.4844.82,,,2022-03-24 08:01:57,2022-03-24 08:01:58,0.507s,PASSED
+"click(findTestObject(""Add Account Page/div_Send By Email""))",Chrome 99.0.4844.82,,,2022-03-24 08:01:58,2022-03-24 08:01:58,0.570s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 99.0.4844.82,,,2022-03-24 08:01:58,2022-03-24 08:01:59,0.551s,PASSED

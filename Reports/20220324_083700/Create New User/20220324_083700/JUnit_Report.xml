@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New User" time="15.204" tests="3" failures="0" errors="0">
+   <testsuite name="Create New User" tests="3" failures="0" errors="0" time="15.204" skipped="0" timestamp="2022-03-24 08:37:06" hostname="sulet - LAPTOP-DQHJD5FF" id="Test Suites/Create New User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700"/>
+         <property name="logFiles" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Open Browser83837.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Login83837.png, C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Add Account83837.png"/>
+         <property name="hostName" value="sulet - LAPTOP-DQHJD5FF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.82"/>
+         <property name="hostAddress" value="192.168.11.156"/>
+         <property name="sessionId" value="9eab55d34ceba46800a9ac53e3b5d87b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="0.768" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[2022-03-24 08:37:10 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "Test System AdminOnline", false): Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-03-24 08:37:10 - [MESSAGE][PASSED] - Current window's title is: 'Test System AdminOnline'
+
+2022-03-24 08:37:10 - [MESSAGE][PASSED] - Actual text 'Test System AdminOnline' and expected text 'Test System AdminOnline' are matched 
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Open Browser83837.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="4.631" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-03-24 08:37:10 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:37:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:37:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Username"), Username): Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-24 08:37:11 - [MESSAGE][PASSED] - Keys 'training@iits.co.za' sent to object: 'Object Repository/Login Home Page/Login Username'
+
+2022-03-24 08:37:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Home Page/Login Password"), Password): Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-24 08:37:11 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Login Home Page/Login Password'
+
+2022-03-24 08:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Home Page/Login Submit")): Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-24 08:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Home Page/Login Submit' is clicked on
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:37:14 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:37:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Login83837.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Account" time="6.063" classname="Test Cases/Add Account" status="PASSED">
+         <system-out><![CDATA[2022-03-24 08:37:15 - [TEST_CASE][PASSED] - Test Cases/Add Account: Test Cases/Add Account
+
+2022-03-24 08:37:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-03-24 08:37:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-03-24 08:37:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-03-24 08:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/a_New Account")): Object: 'Object Repository/Add Account Page/a_New Account' is clicked on
+
+2022-03-24 08:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/a_New Account' is clicked on
+
+2022-03-24 08:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/input_Account Surname_surname")): Object: 'Object Repository/Add Account Page/input_Account Surname_surname' is clicked on
+
+2022-03-24 08:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/input_Account Surname_surname' is clicked on
+
+2022-03-24 08:37:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Account Surname_surname"), TestUserSurname): Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Account Surname_surname'
+
+2022-03-24 08:37:17 - [MESSAGE][PASSED] - Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Account Surname_surname'
+
+2022-03-24 08:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/td_Add Person"), STOP_ON_FAILURE): Object: 'Object Repository/Add Account Page/td_Add Person' is clicked on
+
+2022-03-24 08:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/td_Add Person' is clicked on
+
+2022-03-24 08:37:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Name_name"), TestUserName): Keys '1TestName' sent to object: 'Object Repository/Add Account Page/input_Name_name'
+
+2022-03-24 08:37:18 - [MESSAGE][PASSED] - Keys '1TestName' sent to object: 'Object Repository/Add Account Page/input_Name_name'
+
+2022-03-24 08:37:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Surname_surname"), TestUserSurname): Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Surname_surname'
+
+2022-03-24 08:37:18 - [MESSAGE][PASSED] - Keys '1TestSurname' sent to object: 'Object Repository/Add Account Page/input_Surname_surname'
+
+2022-03-24 08:37:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_ID Number_id_number"), "7612140114088"): Keys '7612140114088' sent to object: 'Object Repository/Add Account Page/input_ID Number_id_number'
+
+2022-03-24 08:37:19 - [MESSAGE][PASSED] - Keys '7612140114088' sent to object: 'Object Repository/Add Account Page/input_ID Number_id_number'
+
+2022-03-24 08:37:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add Account Page/input_Email_email"), "1Test@iits.co.za"): Keys '1Test@iits.co.za' sent to object: 'Object Repository/Add Account Page/input_Email_email'
+
+2022-03-24 08:37:19 - [MESSAGE][PASSED] - Keys '1Test@iits.co.za' sent to object: 'Object Repository/Add Account Page/input_Email_email'
+
+2022-03-24 08:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/div_")): Object: 'Object Repository/Add Account Page/div_' is clicked on
+
+2022-03-24 08:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/div_' is clicked on
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Add Account Page/div_Send By Email")): Object: 'Object Repository/Add Account Page/div_Send By Email' is clicked on
+
+2022-03-24 08:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Account Page/div_Send By Email' is clicked on
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - dt = LocalDateTime.now(): null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - dtdayofyear = dt.getDayOfYear(): null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - dthour = dt.getHour(): null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - dtminute = dt.getMinute(): null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - path = "screenshots/" + testCaseId.replace("/", "-") + dtdayofyear + dthour + dtminute + ".png": null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - println(path): null
+
+2022-03-24 08:37:20 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+2022-03-24 08:37:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sulet\\Katalon Studio\\AdminOnline\\Reports\\20220324_083700\\Create New User\\20220324_083700\\screenshots/Test Cases-Add Account83837.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 08:37:06 - [TEST_SUITE][PASSED] - Create New User: Test Cases/Add Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

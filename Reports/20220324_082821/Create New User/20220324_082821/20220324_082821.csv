@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Firefox 98.0,,,2022-03-24 08:28:30,2022-03-24 08:29:14,44.492s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Firefox 98.0,,,2022-03-24 08:28:35,2022-03-24 08:28:36,1.337s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:28:35,2022-03-24 08:28:35,0.011s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Firefox 98.0,,,2022-03-24 08:28:35,2022-03-24 08:28:35,0.075s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:28:35,2022-03-24 08:28:36,0.958s,PASSED
+,,,,,,,
+Test Cases/Login,Firefox 98.0,,,2022-03-24 08:28:36,2022-03-24 08:28:42,5.162s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:28:36,2022-03-24 08:28:36,0.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",Firefox 98.0,,,2022-03-24 08:28:37,2022-03-24 08:28:38,0.932s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Password""), Password)",Firefox 98.0,,,2022-03-24 08:28:38,2022-03-24 08:28:38,0.315s,PASSED
+"click(findTestObject(""Object Repository/Login Home Page/Login Submit""))",Firefox 98.0,,,2022-03-24 08:28:38,2022-03-24 08:28:40,2.321s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:28:40,2022-03-24 08:28:42,1.264s,PASSED
+,,,,,,,
+Test Cases/Add Account,Firefox 98.0,,,2022-03-24 08:28:42,2022-03-24 08:29:14,32.445s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 98.0,,,2022-03-24 08:28:42,2022-03-24 08:28:42,0.001s,PASSED
+"click(findTestObject(""Add Account Page/a_New Account""))",Firefox 98.0,,,2022-03-24 08:28:42,2022-03-24 08:28:43,0.658s,PASSED
+"click(findTestObject(""Add Account Page/input_Account Surname_surname""))",Firefox 98.0,,,2022-03-24 08:28:43,2022-03-24 08:29:14,31.230s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 98.0,,,2022-03-24 08:29:14,2022-03-24 08:29:14,0.309s,PASSED

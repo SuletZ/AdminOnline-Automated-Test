@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-12 12:29:57,2022-05-12 12:30:19,21.994s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 101.0.4951.54,,,2022-05-12 12:30:04,2022-05-12 12:30:05,1.168s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:04,2022-05-12 12:30:04,0.016s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 101.0.4951.54,,,2022-05-12 12:30:05,2022-05-12 12:30:05,0.059s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:05,2022-05-12 12:30:05,0.569s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 101.0.4951.54,,,2022-05-12 12:30:05,2022-05-12 12:30:12,6.368s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:05,2022-05-12 12:30:05,0.000s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 101.0.4951.54,,,2022-05-12 12:30:06,2022-05-12 12:30:06,0.582s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 101.0.4951.54,,,2022-05-12 12:30:06,2022-05-12 12:30:07,0.509s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 101.0.4951.54,,,2022-05-12 12:30:07,2022-05-12 12:30:11,3.938s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:11,2022-05-12 12:30:12,0.892s,PASSED
+,,,,,,,
+Test Cases/Add Bulk Billing,Chrome 101.0.4951.54,,,2022-05-12 12:30:12,2022-05-12 12:30:19,7.886s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:12,2022-05-12 12:30:12,0.015s,PASSED
+"click(findTestObject(""Page_Main Dashboard/Menu/a_Bulk Billing""))",Chrome 101.0.4951.54,,,2022-05-12 12:30:12,2022-05-12 12:30:13,1.289s,PASSED
+"click(findTestObject(""Object Repository/Page_AdminOnline AdminOnline/div_Add Billing Run""))",Chrome 101.0.4951.54,,,2022-05-12 12:30:13,2022-05-12 12:30:14,0.463s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 101.0.4951.54,,,2022-05-12 12:30:14,2022-05-12 12:30:19,5.658s,PASSED

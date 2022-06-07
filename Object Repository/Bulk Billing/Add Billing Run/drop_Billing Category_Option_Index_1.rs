@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drop_Billing Category_Option_Index_1</name>
+   <tag></tag>
+   <elementGuidId>2813900a-5dca-40e8-a53f-fe35d73d3786</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.pickListCellSelectedOverDark > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='isc_PickListMenu_0_row_1']/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>632bceb7-c810-4334-8456-243de81046b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>d574401d-652f-4070-b92a-94dc020252ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cellclipdiv</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a20d2a93-05fc-471d-a749-0e4884d04ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Basic Billing Monthly</value>
+      <webElementGuid>8f3fbb53-ff02-455d-ba43-3011bbf6595c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;isc_PickListMenu_0_row_1&quot;)/td[@class=&quot;pickListCellSelectedOverDark&quot;]/div[1]</value>
+      <webElementGuid>dec93e9c-4286-46ee-9933-3105b51bc01f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='isc_PickListMenu_0_row_1']/td/div</value>
+      <webElementGuid>be2edc53-3ea1-40aa-b0d8-500fc6078b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Billing Annually'])[1]/following::div[1]</value>
+      <webElementGuid>65ae9258-7f23-46f9-95b5-81642d9b11fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Charge'])[1]/following::div[10]</value>
+      <webElementGuid>264ab240-57c4-41b0-8869-626ace121515</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Billing Other'])[1]/preceding::div[1]</value>
+      <webElementGuid>a3486adf-7b78-4181-8df9-f1d0917b1b97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Billing Quarterly'])[1]/preceding::div[2]</value>
+      <webElementGuid>54ed5b23-42c0-4069-9c1f-bf171386f980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Basic Billing Monthly']/parent::*</value>
+      <webElementGuid>ae72253f-4c30-4a7b-aace-b3c94009f0f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/div</value>
+      <webElementGuid>26caa201-414b-4706-bef0-891934bc847f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Basic Billing Monthly' or . = 'Basic Billing Monthly')]</value>
+      <webElementGuid>c31df97c-e243-453f-b186-3f054bc8bcc3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

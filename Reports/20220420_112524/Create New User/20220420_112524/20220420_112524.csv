@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,Chrome 100.0.4896.127,,,2022-04-20 11:25:34,2022-04-20 11:26:27,52.607s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 100.0.4896.127,,,2022-04-20 11:25:41,2022-04-20 11:25:42,0.806s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:25:41,2022-04-20 11:25:41,0.011s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",Chrome 100.0.4896.127,,,2022-04-20 11:25:41,2022-04-20 11:25:41,0.039s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:25:41,2022-04-20 11:25:42,0.452s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 100.0.4896.127,,,2022-04-20 11:25:42,2022-04-20 11:25:53,11.598s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:25:42,2022-04-20 11:25:42,0.001s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Username""), Username)",Chrome 100.0.4896.127,,,2022-04-20 11:25:42,2022-04-20 11:25:42,0.431s,PASSED
+"sendKeys(findTestObject(""Login Home Page/Input_Password""), Password)",Chrome 100.0.4896.127,,,2022-04-20 11:25:42,2022-04-20 11:25:43,0.360s,PASSED
+"click(findTestObject(""Login Home Page/Button_Submit""))",Chrome 100.0.4896.127,,,2022-04-20 11:25:43,2022-04-20 11:25:52,9.784s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:25:52,2022-04-20 11:25:53,0.767s,PASSED
+,,,,,,,
+Test Cases/Add Account,Chrome 100.0.4896.127,,,2022-04-20 11:25:53,2022-04-20 11:26:27,33.937s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:25:53,2022-04-20 11:25:53,0.001s,PASSED
+"click(findTestObject(""Add Account Page/a_New Account""))",Chrome 100.0.4896.127,,,2022-04-20 11:25:53,2022-04-20 11:25:54,0.610s,PASSED
+"click(findTestObject(""Add Account Page/input_Account Surname_surname""))",Chrome 100.0.4896.127,,,2022-04-20 11:25:54,2022-04-20 11:25:55,0.916s,PASSED
+"sendKeys(findTestObject(""Add Account Page/input_Account Surname_surname""), TestUserSurname)",Chrome 100.0.4896.127,,,2022-04-20 11:25:55,2022-04-20 11:25:55,0.461s,PASSED
+"click(findTestObject(""Add Account Page/Button_Add Person""), STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-04-20 11:25:55,2022-04-20 11:26:27,31.324s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 100.0.4896.127,,,2022-04-20 11:26:27,2022-04-20 11:26:27,0.360s,PASSED

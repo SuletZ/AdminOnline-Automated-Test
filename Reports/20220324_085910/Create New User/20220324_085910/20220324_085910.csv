@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New User,,,,2022-03-24 08:59:18,2022-03-24 08:59:20,2.951s,FAILED
+,,,,,,,
+Test Cases/Open Browser,,,,2022-03-24 08:59:19,2022-03-24 08:59:20,0.396s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-03-24 08:59:19,2022-03-24 08:59:19,0.010s,PASSED
+"verifyMatch(getWindowTitle(), ""Test System AdminOnline"", false)",,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.028s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.057s,ERROR
+,,,,,,,
+Test Cases/Login,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.351s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Home Page/Login Username""), Username)",,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.078s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.016s,ERROR
+,,,,,,,
+Test Cases/Add Account,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.330s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.000s,PASSED
+"click(findTestObject(""Add Account Page/a_New Account""))",,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.059s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-03-24 08:59:20,2022-03-24 08:59:20,0.000s,ERROR
